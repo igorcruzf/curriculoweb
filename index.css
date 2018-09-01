@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+
+.barra-superior {
+	width: 100%;
+	height: 286px;
+	background: #F2994A;
+}
+
+.conteudo {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: -125px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.minha-foto {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.nome-informacoes {
+	margin-left: 45px;
+	padding-bottom: 63px;
+	width: : calc(100% - 250px - 45px);
+}
+
+.meu-nome {
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 64px;
+	color: #333333;
+}
+
+.minhas-informacoes {
+	font-weight: bold;
+	line-height: normal;
+	font-size: 18px;
+	color: #4F4F4F;
+}
+
+.titulo-secao {
+	font-weight: bold;
+	line-height: normal;
+	font-size: 30px;
+	color: #4F4F4F;
+	border-bottom: 1px solid #F2994A;
+}
+
+.experiencia {
+	line-height: 35px;
+	font-size: 20px;
+	text-align: justify;
+	color: #4F4F4F;
+	margin-top: 17px;
+}
+
+.experiencia > b {
+	color: #F2994A;
+}
+
+.habilidades {
+	width: 100%;
+}
+
+.habilidade {
+	list-style: none;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 20px;
+	color: #828282;
+	margin-top: 7px;
+}
+
+.habilidade::before {
+	content: "> ";
+	color: #F2994A;
+}
+
+.formulario-input{
+	width: 100%;
+}
+
+.formulario-input > span {
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	font-size: 18px;
+	color:	#F2994A;
+
+}
+
+.formulario-input > input {
+	height: 40px;
+	width: 100%;
+	background: #FBFBFB;
+	border: 1px solid #F2994A;
+	box-sizing: border-box;
+	border-radius: 5px;
+}
