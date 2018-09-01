@@ -37,6 +37,10 @@ $(document).ready(function(){
 			}
 		});
 	});
+
+	$("#contato").click(function() {
+		$("#panel").animate({width:'toggle'},1000);		
+	});
 });
 
 function trocaCor(cor){
